@@ -1,6 +1,8 @@
 var caja = document.getElementById("dibujito");
 /*para obtener el área que permite dibujar*/
 var lienzo = caja.getContext("2d");
+dibujarLinea("red", 10, 300, 220, 10);
+dibujarLinea("blue", 300, 10, 10, 220);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal) {
     /*arrancar un trazo en el canvas */
